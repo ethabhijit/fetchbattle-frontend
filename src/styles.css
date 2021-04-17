@@ -1,0 +1,128 @@
+* {
+  --navbar-bg: #1e90ff;
+  --navbar-btn: #177ee2;
+  --body-bg: #2f3542;
+  --footer-bg: #57606f;
+}
+
+body {
+  padding-top: 55px;
+}
+
+/* Tournament tag section  */
+.tags {
+  margin-right: 10px;
+}
+
+/* Navigation bar  */
+.navbar {
+  background-color: var(--navbar-bg);
+}
+
+.nav-btn {
+  background-color: var(--navbar-btn);
+  color: #fff;
+}
+
+.nav-menu-icon {
+  color: #fff;
+  font-size: 1.5rem;
+  margin: auto;
+  cursor: pointer;
+}
+
+/* Bold text  */
+.text-bold {
+  font-weight: bold;
+}
+
+/* Main section card  */
+.main-card-container {
+  width: 100%;
+}
+
+/* Search section  */
+.search-section {
+  width: 257px;
+}
+
+.search-card-section {
+  width: 100%;
+}
+
+/* Sidebar  */
+.sidebar-card-container {
+  width: 300px;
+}
+
+.sidebar-card {
+  width: 100%;
+}
+
+.none-underline {
+  text-decoration: none;
+}
+
+/* Margin  */
+.tournament-info-icons {
+  margin-right: 10px;
+}
+
+/* Side navbar  */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #2c3e50;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ecf0f1;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #bdc3c7;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+.card-button-container {
+  display: flex;
+  align-items: center;
+}
+
+.user-enter-icon {
+  margin-bottom: 0;
+  font-size: 2rem;
+}
